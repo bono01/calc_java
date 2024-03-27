@@ -1,8 +1,8 @@
-public class Calculadora {
+public class Calc {
 
     private double meuNumeroPreferido;
 
-    public Calculadora(double meuNumeroPreferido) {
+    public Calc(double meuNumeroPreferido) {
         this.meuNumeroPreferido = meuNumeroPreferido;
     }
 

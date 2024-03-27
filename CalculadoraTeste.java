@@ -1,6 +1,8 @@
+import javax.swing.JOptionPane;
+
 public class CalculadoraTeste {
     public static void main(String[] args) {
-        Calculadora calc = new Calculadora();
+        Calculadora calc = new Calculadora(9);
         //testar soma
         double soma = calc.somar(2, 3);
         System.out.println(soma);
